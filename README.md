@@ -1,26 +1,51 @@
-# OpenCV Python Tutorial
+# OpenCV Image Processing Basics 🖼️🔍
 
-Welcome to the **OpenCV Python Tutorial** repository! This repo is designed to help beginners get started with computer vision using OpenCV and Python.
+This repository provides a beginner-friendly walkthrough of fundamental image processing tasks using **OpenCV**. Whether you're just starting with computer vision or brushing up on the basics, this repo covers essential operations such as reading and writing images, drawing, color space conversion, cropping, image addition, thresholding, and morphological operations.
 
-## What is OpenCV?
+---
 
-OpenCV (Open Source Computer Vision Library) is a popular computer vision and image processing library. It is widely used for real-time computer vision applications.
+## 📁 Contents
 
-## Repository Contents
+### 01. **Reading and Writing Images**
 
-- **01_read_and_write_images.py** – How to read and write images using OpenCV.
+* Load images from disk using `cv2.imread()`
+* Save processed images using `cv2.imwrite()`
+* Display images using `cv2.imshow()`
 
+### 02. **Drawing on Images**
 
-## Getting Started
+* Draw lines, rectangles, circles, and text using OpenCV's drawing functions
 
-### Prerequisites
+### 03. **Color Space Conversion**
 
-- Python 3.6 or higher
-- OpenCV library for Python
+* Convert images between color spaces: BGR ↔️ Grayscale, HSV, LAB, etc.
+* Use `cv2.cvtColor()` for transformations
 
-### Installation
+### 04. **Cropping and Pasting**
 
-Install OpenCV using pip:
+* Crop regions of interest (ROI) from images
+* Paste or replace regions in the same or different images
+
+### 05. **Adding Images and Applying Thresholding**
+
+* Image blending and addition using `cv2.add()` and `cv2.addWeighted()`
+* Apply simple and adaptive thresholding techniques
+
+### 06. **Morphological Operations**
+
+* Erosion, Dilation
+* Opening, Closing
+* Morphological gradients and top-hat/black-hat transformations
+
+---
+
+## 🛠️ Requirements
+
+* Python 3.x
+* OpenCV (`opencv-python`)
+
+Install dependencies:
 
 ```bash
 pip install opencv-python
+```
